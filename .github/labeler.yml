@@ -1,0 +1,24 @@
+﻿"Changes: C#":
+  - "**/*.cs"
+
+"Changes: Documentation":
+  - "**/*.xml"
+  - "**/*.md"
+
+"Changes: Localization":
+- 'Resources/Locale/**/*.ftl'
+
+"Changes: Map":
+  - "Resources/Maps/**/*.yml"
+  - "Resources/Prototypes/Maps/**/*.yml"
+
+"Changes: Sprite":
+  - "**/*.rsi/*.png"
+  - "**/*.rsi/*.json"
+
+"Changes: UI":
+  - "**/*.xaml*"
+
+"Changes: YML":
+  - any: ["**/*.yml"]
+    all: ["!Resources/Maps/**/*.yml", "!Resources/Prototypes/Maps/**/*.yml"]
