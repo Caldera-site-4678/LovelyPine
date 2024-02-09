@@ -1,0 +1,56 @@
+- type: job
+  id: ChiefEngineer
+  name: job-name-ce
+  description: job-description-ce
+  playTimeTracker: JobChiefEngineer
+  requirements:
+    # Parkstation-Playtime
+    - !type:RoleTimeRequirement
+      role: JobAtmosphericTechnician
+      time: 21600 # 6 hours
+    - !type:RoleTimeRequirement
+      role: JobSalvageSpecialist
+      time: 7200 # 2 hours
+    - !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 36000 # 10 hours
+    - !type:OverallPlaytimeRequirement
+      time: 86400 # 24 hours
+  weight: 10
+  startingGear: ChiefEngineerGear
+  icon: "JobIconChiefEngineer"
+  requireAdminNotify: true
+  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - Maintenance
+  - Engineering
+  - Command
+  - External
+  - ChiefEngineer
+  - Atmospherics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+  - !type:AddComponentSpecial
+    components:
+    - type: PsionicBonusChance #Nyano - Summary: makes it more likely to become psionic.
+      flatBonus: 0.025
+
+- type: startingGear
+  id: ChiefEngineerGear
+  equipment:
+    head: ClothingHeadHatHardhatWhite
+    jumpsuit: ClothingUniformJumpsuitChiefEngineer
+    back: ClothingBackpackChiefEngineerFilled
+    shoes: ClothingShoesColorBrown
+    id: CEPDA
+    eyes: ClothingEyesGlassesMeson
+    ears: ClothingHeadsetCE
+    belt: ClothingBeltUtilityEngineering
+  innerClothingSkirt: ClothingUniformJumpskirtChiefEngineer
+  satchel: ClothingBackpackSatchelChiefEngineerFilled
+  duffelbag: ClothingBackpackDuffelChiefEngineerFilled
