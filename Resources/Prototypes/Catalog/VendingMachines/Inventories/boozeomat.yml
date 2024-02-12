@@ -4,17 +4,17 @@
     DrinkGlass: 20 #Kept glasses at top for ease to differentiate from booze.
     DrinkShotGlass: 10
     DrinkGlassCoupeShaped: 10
-    DrinkVacuumFlask: 5
-    DrinkFlaskBar: 5
-    DrinkShaker: 5
-    CustomDrinkJug: 2 #to allow for custom drinks in the soda/booze dispensers
-    DrinkAbsintheBottleFull: 2
-    DrinkAleBottleFull: 5
-    DrinkBeerBottleFull: 5
-    DrinkBlueCuracaoBottleFull: 2
-    DrinkCognacBottleFull: 4
-    DrinkColaBottleFull: 4
-    DrinkCreamCarton: 5
+    DrinkVacuumFlask: 10
+    DrinkFlaskBar: 10
+    DrinkShaker: 10
+    CustomDrinkJug: 10 #to allow for custom drinks in the soda/booze dispensers
+    DrinkAbsintheBottleFull: 10
+    DrinkAleBottleFull: 10
+    DrinkBeerBottleFull: 10
+    DrinkBlueCuracaoBottleFull: 10
+    DrinkCognacBottleFull: 10
+    DrinkColaBottleFull: 10
+    DrinkCreamCarton: 10
     DrinkGinBottleFull: 3
     DrinkGildlagerBottleFull: 2 #if champagne gets less because its premium, then gildlager should match this and have two
     DrinkGrenadineBottleFull: 2
